@@ -1,10 +1,102 @@
 <!DOCTYPE html>
-<html lang_"ca">
+<html lang="ca">
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <link rel="stylesheet" href="./css/style.css"> <!--Link CSS-->
+        <title>Monegros Desert Festival | Música electrònica al desert</title>
     </head>
+    
     <body>
+        <header>
+            <nav class="navbar">
+                <a href="index.html" class="logo-link">
+                    <img src="./images/logo.png" alt="Monegros Desert Festival" class="logo">
+                </a>
+
+                <a href="./index.html" class="navlink">Festival</a> <a href="./contactes.html" class="navlink">Contacte</a>
+            </nav>
+        </header>
         
+        <main>
+            <!---->
+            <section id="contacte" class="seccions">
+
+                <h1>Alguna cosa a dir? Contacta'ns!</h1>
+
+                <form action="action_page.php" method="post">
+
+                    <h2>Formulari de contacte</h2>
+
+                    <label for="fname">Nom</label>
+                    <input
+                        type="text"
+                        id="fname"
+                        name="firstname"
+                        placeholder="El teu nom..."
+                        required
+                    >
+
+                    <label for="lname">Cognoms</label>
+                    <input
+                        type="text"
+                        id="lname"
+                        name="lastname"
+                        placeholder="Els teus cognoms..."
+                        required
+                    >
+
+                    <label for="email">Correu electrònic</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="El teu correu electrònic..."
+                        required
+                    >
+
+                    <label for="subject">Assumpte</label>
+                    <textarea
+                        id="subject"
+                        name="subject"
+                        placeholder="Escriu alguna cosa..."
+                        required
+                    ></textarea>
+
+                    <button type="submit">ENVIAR MISSATGE</button>
+
+                </form>
+
+        </section>
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer>
+            
+            <h3>MONEGROS DESERT FESTIVAL</h3>
+
+            <h3>ONE DESERT. ONE NIGHT. ONE LEGEND.</h3>
+
+            <h4>Segueix el ritme i forma part de la comunitat Monegros:</h4>
+
+            <ul class="xarxes-socials">
+                <li><a href="https://www.instagram.com/monegrosfestival/">Instagram</a></li>
+                <li><a href="https://www.facebook.com/MONEGROSDESERTFESTIVAL/">Facebook</a></li>
+                <li><a href="https://www.tiktok.com/@monegrosdesertfestival">TikTok</a></li>
+                <li><a href="https://www.youtube.com/@MonegrosOfficial">YouTube</a></li>
+                <li><a href="https://monegrosfestival.com/es">Web oficial</a></li>
+            </ul>
+
+            <br>
+            
+            <p>Creat per <a href="https://github.com/Kronna1">Alexandra A.</a> , <a href="https://github.com/franguardia1">Fran G.</a> i <a href="https://github.com/paulamerizalde-spec">Paula M.</a></p>
+            <h3>Institut Montsià, CFGS DAW1 2026 - 27</h3>
+            <h4>Disclaimer: Aquest és el resultat d'un exercici. No tenim relació alguna amb el festival. Tots els drets reservats als creadors del festival Monegros Desert Festival</h4>
+
+
+        </footer>
+        
+        <script src="./js/script.js" defer></script> <!--Link JS-->
+
     </body>
-</html>  
+</html>
