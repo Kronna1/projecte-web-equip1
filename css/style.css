@@ -1,0 +1,195 @@
+
+/* ESTILOS GENERALES */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/* MENÚ*/
+header {
+    background-color: black;
+    padding: 15px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+}
+
+.navlink {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.navlink:hover {
+    color: orange;
+}
+
+/* PORTADA PRINCIPAL */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #222222;
+}
+
+.hero h1 {
+    color: orange;
+}
+
+.hero img {
+    width: 45%;
+    margin: 10px;
+}
+
+/* SECCIONES */
+.seccions {
+    padding: 30px;
+    margin: 20px;
+    background-color: #191919;
+}
+
+.seccions h2 {
+    color: orange;
+    text-align: center;
+}
+
+/* GALERIA  */
+.galeria {
+    text-align: center;
+}
+
+.galeria img {
+    width: 30%;
+    margin: 10px;
+}
+
+/* TABLAS */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid orange;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333333;
+    color: orange;
+}
+
+/* FORMULARIO DE CONTACTO */
+form {
+    background-color: #222222;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+form h2 {
+    text-align: center;
+    color: orange;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+/* BOTONES */
+button, .button {
+    background-color: orange;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover, .button:hover {
+    background-color: darkorange;
+}
+
+/* PIE DE PAGINA */
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 25px;
+}
+
+footer h3 {
+    color: orange;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: orange;
+}
+
+.xarxes-socials {
+    list-style: none;
+    padding: 0;
+}
+
+.xarxes-socials li {
+    display: inline-block;
+    margin: 10px;
+}
+
+/* DISEÑO PARA MOVILES */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .hero {
+        padding: 20px;
+    }
+
+    .hero img {
+        width: 100%;
+    }
+
+    .galeria img {
+        width: 100%;
+    }
+
+    .seccions {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    input, textarea {
+        width: 100%;
+    }
+}
